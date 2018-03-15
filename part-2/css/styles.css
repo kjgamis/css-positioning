@@ -17,6 +17,7 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 figure {
@@ -26,4 +27,48 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 2px solid #DDDDDD;
+  padding: 20px 0 0 15px;
+  overflow: auto;
+}
+
+.film-poster {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  position: relative;
+}
+
+.film-details {
+  float: right;
+  width: 70%;
+}
+
+.fa-clock-o {
+  color: red;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.film-details {
+  position: relative;
+}
+
+.film-title {
+  margin: 0;
+}
+
+.film-description {
+  padding: 10px;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.fa-heart, .fa-bookmark, .fa-star {
+  color: red;
 }
